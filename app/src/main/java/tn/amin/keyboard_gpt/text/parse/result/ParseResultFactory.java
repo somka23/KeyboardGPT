@@ -12,14 +12,6 @@ public interface ParseResultFactory {
                 return new AIParseResultFactory();
             case CommandCustom:
                 return new CommandParseResultFactory();
-            case FormatBold:
-                return new FormatParseResultFactory(ConversionMethod.BOLD);
-            case FormatItalic:
-                return new FormatParseResultFactory(ConversionMethod.ITALIC);
-            case FormatCrossout:
-                return new FormatParseResultFactory(ConversionMethod.CROSSOUT);
-            case FormatUnderline:
-                return new FormatParseResultFactory(ConversionMethod.UNDERLINE);
             case Settings:
             default:
                 return new SettingsParseResultFactory();
