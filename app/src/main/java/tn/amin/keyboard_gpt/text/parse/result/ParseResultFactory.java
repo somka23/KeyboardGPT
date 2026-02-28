@@ -1,5 +1,5 @@
 package tn.amin.keyboard_gpt.text.parse.result;
-//be
+//b
 import java.util.List;
 
 import tn.amin.keyboard_gpt.text.parse.PatternType;
