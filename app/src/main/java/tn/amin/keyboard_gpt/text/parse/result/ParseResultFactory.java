@@ -10,8 +10,6 @@ public interface ParseResultFactory {
         switch (type) {
             case CommandAI:
                 return new AIParseResultFactory();
-            case CommandCustom:
-                return new CommandParseResultFactory();
             case Settings:
             default:
                 return new SettingsParseResultFactory();
